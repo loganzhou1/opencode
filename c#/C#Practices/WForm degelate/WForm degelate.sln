@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WForm degelate", "WForm degelate\WForm degelate.csproj", "{6157F451-5334-47A7-9D3B-4C74722E4CAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6157F451-5334-47A7-9D3B-4C74722E4CAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6157F451-5334-47A7-9D3B-4C74722E4CAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6157F451-5334-47A7-9D3B-4C74722E4CAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6157F451-5334-47A7-9D3B-4C74722E4CAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

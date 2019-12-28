@@ -1,0 +1,1 @@
+D:\0Git\git-repositories\codelearn\c#\C#Practices\wintestTcp\wintestTcp\bin\Debug\wintestTcp.exe.config

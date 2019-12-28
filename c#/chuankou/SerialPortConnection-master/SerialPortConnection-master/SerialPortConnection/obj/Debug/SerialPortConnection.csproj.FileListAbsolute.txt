@@ -1,0 +1,20 @@
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\obj\Debug\ResolveAssemblyReference.cache
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\obj\Debug\SerialPortConnection.Form1.resources
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\obj\Debug\SerialPortConnection.Properties.Resources.resources
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\obj\Debug\SerialPortConnection.csproj.GenerateResource.Cache
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\bin\Debug\SerialPortConnection.exe
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\bin\Debug\SerialPortConnection.pdb
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\obj\Debug\SerialPortConnection.exe
+D:\My Documents\Visual Studio 2008\Projects\SerialPortConnection\SerialPortConnection\obj\Debug\SerialPortConnection.pdb
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.exe
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.pdb
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\bin\Debug\SerialPortConnection.exe
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\bin\Debug\SerialPortConnection.pdb
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.Form1.resources
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.Properties.Resources.resources
+D:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.csproj.GenerateResource.Cache
+W:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.exe
+W:\YingYong安装软件\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.pdb
+F:\2019.10.10\5常用C#应用\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\bin\Debug\SerialPortConnection.exe.config
+F:\2019.10.10\5常用C#应用\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.exe
+F:\2019.10.10\5常用C#应用\chuankou\SerialPortConnection-master\SerialPortConnection-master\SerialPortConnection\obj\Debug\SerialPortConnection.pdb

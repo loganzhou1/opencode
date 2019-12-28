@@ -1,0 +1,9 @@
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\bin\Debug\WForm degelate.exe.config
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\bin\Debug\WForm degelate.exe
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\bin\Debug\WForm degelate.pdb
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\obj\Debug\WForm degelate.csprojResolveAssemblyReference.cache
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\obj\Debug\WForm_degelate.Form1.resources
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\obj\Debug\WForm_degelate.Properties.Resources.resources
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\obj\Debug\WForm degelate.csproj.GenerateResource.Cache
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\obj\Debug\WForm degelate.exe
+D:\0Git\git-repositories\codelearn\c#\C#Practices\WForm degelate\WForm degelate\obj\Debug\WForm degelate.pdb

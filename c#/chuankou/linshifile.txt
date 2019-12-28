@@ -1,0 +1,83 @@
+using System;
+using System.IO.Ports;
+using System.Linq;
+using System.Windows.Forms;
+ 
+//使用C#自带serialPort控件进行串口编程94011.com.cn
+namespace serialport
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+ 
+        private void serialPort1_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
+        {
+            //使用委托进行跨线程读取数据
+          Invoke
+           (new EventHandler
+             (delegate
+              {
+                txtreceived.Text  = comport .ReadExisting ();
+              } 
+             )
+            );
+        }
+ 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           foreach (string com in System .IO .Ports .SerialPort.GetPortNames ()) //自动获取串行口名称
+ 
+                cmbPortName.Items.Add(com);
+            cmbPortName.SelectedIndex = 0;
+        }
+ 
+        private void btnopen_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (comport.IsOpen) comport.Close();
+                else
+                {
+                    // Set the port's settings
+                    comport.BaudRate = int.Parse(cmbBaudRate.Text);
+                    comport.DataBits = int.Parse(cmbDataBits.Text);
+                    comport.StopBits = (StopBits)Enum.Parse(typeof(StopBits), cmbStopBits.Text);
+                    comport.Parity = (Parity)Enum.Parse(typeof(Parity), cmbParity.Text);
+                    comport.PortName = cmbPortName.Text;
+ 
+                    // Open the port
+                    comport.Open();
+                }
+                gbPortSettings.Enabled = !comport.IsOpen;
+                txtsend.Enabled = btnsend.Enabled = comport.IsOpen;
+ 
+                if (comport.IsOpen) btnopen.Text = "&C关闭端口";
+                else btnopen.Text = "&O打开端口";
+                if (comport.IsOpen) txtsend.Focus();
+            }
+            catch (Exception er)
+            {  MessageBox .Show ("端口打开失败！" er.Message ,"提示");}
+ 
+ 
+        }
+ 
+        private void btnsend_Click(object sender, EventArgs e)
+        {
+           for (int i=0;i< txtsend .Lines .Count() ;i  )
+            comport.WriteLine(txtsend.Lines [i]);
+        }
+        
+        private void btnexit_Click(object sender, EventArgs e)
+        {
+           Close();
+        }
+ 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://94011.info");
+        }
+    }
+}
